@@ -1,0 +1,32 @@
+@charset"UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    min-width: 300px;
+    max-width: 835px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: #023047;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#fN {
+    text-align: center;
+    font-size: 30px;
+}

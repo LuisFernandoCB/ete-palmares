@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETE Palmares</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/idsClasses.css">
+    <style>
+        @media (max-width: 875px) {
+            .linksCurso {
+                display: none;
+            }
+            .iconeCurso {
+                width: 100%;
+                margin-top: 20px;
+                box-shadow: 4px 5px 15px 4px rgba(0, 0, 0, 0.342);
+            }
+            .blocoCurso {
+                display: contents;
+            }
+            h1 {
+                text-align: center;
+            }
+            #ft {
+            line-height: 50px;
+            }
+            body {
+                background-color: #07A0C3;
+            }
+        }
+
+        @media (max-width: 360px) {
+            section {
+                margin: 0;
+                border-radius: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <a href="#" id="logo">
+            <picture>
+                <!--source media="(max-width: 320px)" srcset="images/miniLogo.png" type="image/png" width="60px" height="60px"-->
+                <source media="(max-width: 360px)" srcset="../images/logo.png" type="image/png" width="150px" height="80px"> 
+                <img src="../images/logo.png" alt="LOGO" width="150px" height="80px">
+            </picture>
+        </a>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="desenvolvedores.html">Desenvolvedores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="js/menu.js"></script>
+    <br>
+    <br>
+    <br>
+    <section>
+        <h1>Categorias de Cursos</h1>
+        <div class="blocoCurso">
+            <div id="hover1" class="iconeCurso cor1">
+                <a href="html categorias/front-end.html">
+                    <div class="nomeCurso">
+                        <h2 >Administração</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="descricaoCurso borda bordaCor1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quod autem fugiat molestiae dicta numquam saepe similique laudantium nihil error .</p>
+            </div>
+        </div> 
+
+        <div class="blocoCurso">
+            <div id="hover2" class="iconeCurso cor2">
+                <a href="html categorias/programacao.html">
+                    <div class="nomeCurso">
+                        <h2 >Agropecuária</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="descricaoCurso borda bordaCor2">
+                
+            </div>
+        </div>  
+
+        <div class="blocoCurso">
+            <div id="hover3" class="iconeCurso cor3">
+                <a href="html categorias/fertec.html">
+                    <div class="nomeCurso">
+                        <h2 id="tituloFT">Desenvolvimento de Sistemas</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="descricaoCurso borda bordaCor3">
+                
+            </div>
+        </div> 
+    </section>
+    <br>
+    <br>
+    <footer>
+        <p>Site desenvolvido para divulgação de conteúdo educativo e conhecimento no contexto da tecnologia a informação.</p>
+        <p id="fN">Projeto Bit's Station</p>
+    </footer>
+</body>
+</html>
