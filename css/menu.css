@@ -10,7 +10,7 @@ nav {
 }
 
 nav a:hover {
-    background-color: #FFB703;
+    background-color: #003351;
     transition: 0.5s;
 }
 
@@ -39,7 +39,7 @@ nav a {
     height: 71px;
     padding: 15px 10px 10px 30px;
     justify-content: space-between;
-    background-color: #FB8402;
+    background-color: #003351;
 }
 
 #menu {
@@ -64,7 +64,7 @@ nav a {
         width: 100%;
         top: 70px;
         right: 0px;
-        background-color: #FB8402;
+        background-color: #003351;
         height: 0px;
         transition: .6s;
         z-index: 1000;
